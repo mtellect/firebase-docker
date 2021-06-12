@@ -10,4 +10,4 @@ RUN apt-get update && \
     apt-get clean;
 RUN npm i -g firebase-tools
 RUN firebase --version
-EXPOSE  4400 4500 5000 5001 8001 8080 8085 9000
+EXPOSE  4400 4500 5000 5001 8001 8080 8085 9000 9099 9199 8880
